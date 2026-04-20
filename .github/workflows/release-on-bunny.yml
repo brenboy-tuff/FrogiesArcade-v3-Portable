@@ -14,6 +14,6 @@ jobs:
       - name: Deploy Script to Bunny Edge Scripting
         uses: BunnyWay/actions/deploy-script@main
         with:
-          script_id: ${{ secrets.71838 }}
-          deploy_key: ${{ secrets.bdea5d81-83a5-4007-8b583963d5e1-64c5-4609 }}
+          script_id: 71838
+          deploy_key: bdea5d81-83a5-4007-8b583963d5e1-64c5-4609
           file: "script.ts"
